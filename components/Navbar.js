@@ -1,9 +1,13 @@
+import Link  from 'next/link'
+
 const Navbar = () => {
     return ( 
         <nav className="navbar">
-            <h1>My Blog</h1>
+            <h1>Places</h1>
             <div className="links">
-                <p>This is where the links go.</p>
+                 <Link href="/">Home</Link>
+                 <Link href="/about">About</Link>
+                 <Link href="/blogs">Create</Link>
             </div>
         </nav>
      );

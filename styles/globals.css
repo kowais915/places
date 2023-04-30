@@ -4,3 +4,27 @@
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }
+
+/* styling the navbar */
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #fff;
+  padding: 0 1rem;
+  height: 60px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+  background-color: rgb(46, 230, 144);
+  margin-bottom: 40px;
+}
+
+li, a{
+  text-decoration: none;
+  list-style: none;
+  color: #000;
+  margin: 10px;
+}
+
