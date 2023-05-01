@@ -31,11 +31,11 @@ export default function Home({ place}) {
     <>
       
       <Navbar/>
-      <h1>This is places</h1>
+      <h3 style={{textAlign: 'center', marginBottom: '30px'}}>This is places</h3>
       {place.map((place) => {
         return (
           <div key={place.sys.id}>
-            <h2>{place.fields.place}</h2>
+            <h5>{place.fields.place}</h5>
             
             
           </div>
