@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Navbar from '../components/Navbar'
 import {  createClient } from 'contentful' 
+import Card from '../components/Card'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -32,15 +33,18 @@ export default function Home({ place}) {
       
       <Navbar/>
       <h3 style={{textAlign: 'center', marginBottom: '30px'}}>This is places</h3>
+      <div className="grid">
       {place.map((place) => {
         return (
           <div key={place.sys.id}>
-            <h5>{place.fields.place}</h5>
+            
+            <Card title ={place.fields.place}/>
             
             
           </div>
         )
       })}
+      </div>
 
       
 

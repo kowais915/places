@@ -28,3 +28,14 @@ li, a{
   margin: 10px;
 }
 
+.grid{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 400px;
+  margin: 0 auto;
+  flex-direction: row;
+  align-items: center;
+}

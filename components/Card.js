@@ -1,9 +1,18 @@
-const Card = () => {
+
+
+const Card = ({title}) => {
     return ( 
-        <div className="card">
-            <p>This is a card</p>
-            <p className="body">This is the cards body</p>
-        </div>
+       <>
+            
+            <div class="card" style={{width: "18rem;"}}>
+                
+                <div class="card-body">
+                    <h5 class="card-title">{title}</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+       </>
      );
 }
  
