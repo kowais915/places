@@ -26,6 +26,7 @@ li, a{
   list-style: none;
   color: #000;
   margin: 10px;
+ 
 }
 
 .grid{
@@ -38,4 +39,9 @@ li, a{
   margin: 0 auto;
   flex-direction: row;
   align-items: center;
+}
+
+ .my-link {
+  text-decoration: none;
+  color: #000;
 }
