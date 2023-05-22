@@ -7,6 +7,7 @@ import {  createClient } from 'contentful'
 import Card from '../components/Card'
 import Footer from '@/components/Footer'
 
+
 const inter = Inter({ subsets: ['latin'] })
 
 export async function getStaticProps(){
@@ -34,7 +35,7 @@ export default function Home({ place}) {
       
       <Navbar/>
       <h3 style={{textAlign: 'center', marginBottom: '30px'}}>This is places</h3>
-      <div className="grid">
+      <div className={styles.container   }>
       {place.map((place) => {
         return (
           <div key={place.sys.id}>
@@ -46,9 +47,9 @@ export default function Home({ place}) {
         )
       })}
 
-      <Footer/>
+  
       </div>
-
+      <Footer/>
       
 
     </>
