@@ -1,0 +1,16 @@
+.container {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+    padding: 0 1rem;
+    height: 60px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    background-color: rgb(46, 230, 144);
+    margin-bottom: 40px;
+    padding: 35px;
+}

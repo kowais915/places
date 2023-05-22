@@ -19,6 +19,7 @@
   box-shadow: 0 5px 10px rgba(0,0,0,0.1);
   background-color: rgb(46, 230, 144);
   margin-bottom: 40px;
+  padding: 100px;
 }
 
 li, a{
