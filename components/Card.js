@@ -1,6 +1,7 @@
 import styles from '@/styles/Card.module.css'
 
-const Card = ({title}) => {
+const Card = ({title, description}) => {
+    
     return ( 
        <>
             
@@ -8,7 +9,7 @@ const Card = ({title}) => {
                 
                 <div class="card-body">
                     <h5 class="card-title">{title}</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>
+                    <p class="card-text">{description}</p>
                     <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
             </div>

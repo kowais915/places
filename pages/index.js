@@ -29,7 +29,9 @@ export async function getStaticProps(){
 }
 
 export default function Home({ place}) {
-  console.log(place)
+  const placeObj = place[0].fields
+  const meta = place[0].fields.picture[0]
+  console.log(meta)
   return (
     <>
       
@@ -40,7 +42,7 @@ export default function Home({ place}) {
         return (
           <div key={place.sys.id}>
             
-            <Card title ={place.fields.place}/>
+            <Card title ={place.fields.place} description={meta.fields.description}/>
             
             
           </div>

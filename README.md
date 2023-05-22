@@ -1,3 +1,10 @@
+# Places
+A project foucsed on adding Contentful as a headless CMS to a Next.Js project. 
+
+## Deployment
+Find the deployed version [here.](https://places-srzm.vercel.app/)
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
