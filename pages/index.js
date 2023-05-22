@@ -5,6 +5,7 @@ import styles from '@/styles/Home.module.css'
 import Navbar from '../components/Navbar'
 import {  createClient } from 'contentful' 
 import Card from '../components/Card'
+import Footer from '@/components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -44,6 +45,8 @@ export default function Home({ place}) {
           </div>
         )
       })}
+
+      <Footer/>
       </div>
 
       
