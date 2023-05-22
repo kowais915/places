@@ -1,7 +1,7 @@
 # Places
 A project foucsed on adding Contentful as a headless CMS to a Next.Js project. 
 
-## Deployment
+# Deployment
 Find the deployed version [here.](https://places-srzm.vercel.app/)
 
 
